@@ -117,6 +117,18 @@ function create (database) {
       type: STRING
     },
 
+    issuer_wallet: {
+      type: STRING
+    },
+
+    issuer_agency: {
+      type: STRING
+    },
+
+    issuer_account: {
+      type: STRING
+    },
+
     title_id: {
       type: INTEGER,
       allowNull: false,
